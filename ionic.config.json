@@ -1,0 +1,7 @@
+{
+  "name": "ditto",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
