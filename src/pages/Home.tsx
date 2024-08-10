@@ -1,4 +1,5 @@
-import MessageListItem from '../components/MessageListItem';
+// import MessageListItem from '../components/MessageListItem';
+import { Item } from '../components/item';
 import { useState } from 'react';
 import { Message, getMessages } from '../data/messages';
 import {
@@ -50,7 +51,7 @@ const Home: React.FC = () => {
         </IonHeader>
 
         <IonList>
-          {messages.map(m => <MessageListItem key={m.id} message={m} />)}
+          {messages.map(m => <Item key={m.id} message={m} />)}
         </IonList>
       </IonContent>
     </IonPage>
